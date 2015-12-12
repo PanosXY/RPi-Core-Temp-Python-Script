@@ -19,4 +19,4 @@ At last you can modify your crontab to run this script on reboot. Open crontab b
         sudo crontab -e
 and put this in the end:
 
-        @reboot sudo python /path/of/streaming_plot.py &
+        @reboot python /path/of/streaming_plot.py &
